@@ -1,0 +1,13 @@
+# Terraform providers y binarios
+.terraform/
+
+# State files (pueden contener datos sensibles)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Variables con valores sensibles
+*.tfvars
+*.tfvars.json
+
+# Archivos de plan guardados
+*.tfplan
